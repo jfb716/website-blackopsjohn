@@ -1,0 +1,19 @@
+.black_bar {
+    background-color: black;
+    height: 75px;
+}
+
+#tabs-1 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.grid_box {
+    height: 400px;
+    width: 450px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 30px;
+    box-sizing: border-box;
+}
