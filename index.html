@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-US" ng-app="AngApp">
+<html lang="en-US" ng-app="myApp">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,43 +29,11 @@
                    <li><a href="#tabs-1">Native Gallery</a></li>
                    <li><a href="#tabs-2">Tab 2</a></li>
                </ul>
-               <div id="tabs-1">
-                   <div class="grid_box" id="grid_1">
-                       <iframe src="Tags/default.html" frameborder="0" height="300" width="325" style="border:0; margin:0;"></iframe>
+               <div id="tabs-1" ng-controller="TagController">
+                   <div class="grid_box" id="grid_1" ng-repeat="tag in adtagbox">
+                       {{tag}}
                    </div>
-                   <div class="grid_box" id="grid_2">
-                       <iframe src="Tags/cookingpanda.html" frameborder="0" height="300" width="320" style="border:0; margin:0;"></iframe>
-                   </div>
-                   <div class="grid_box" id="grid_3">
-                       <iframe src="Tags/digg.html" frameborder="0" height="300" width="320" style="border:0; margin:0;"></iframe>
-                   </div>
-                   <div class="grid_box" id="grid_4">
-                       <iframe src="Tags/independentjournal.html" frameborder="0" height="300" width="320" style="border:0; margin:0;"></iframe>
-                   </div>
-                   <div class="grid_box" id="grid_5">
-                       <iframe src="Tags/legacy.html" frameborder="0" height="300" width="320" style="border:0; margin:0;"></iframe>
-                   </div>
-                   <div class="grid_box" id="grid_6">
-                       <iframe src="Tags/lifebuzz.html" frameborder="0" height="300" width="320" style="border:0; margin:0;"></iframe>
-                   </div>
-                   <div class="grid_box" id="grid_7">
-                       <iframe src="Tags/littlethings.html" frameborder="0" height="300" width="320" style="border:0; margin:0;"></iframe>
-                   </div>
-                   <div class="grid_box" id="grid_8">
-                       <iframe src="Tags/oldinstantarticles.html" frameborder="0" height="300" width="320" style="border:0; margin:0;"></iframe>
-                   </div>
-                   <div class="grid_box" id="grid_9">
-                       
-                   </div>
-                   <div class="grid_box" id="grid_10">
-                       
-                   </div>
-                   <div class="grid_box" id="grid_11">
-                       
-                   </div>
-                   <div class="grid_box" id="grid_12">
-                       
-                   </div>
+                   
                </div>
            </div>
             

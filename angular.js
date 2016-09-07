@@ -1,6 +1,14 @@
-var app = angular.module("AngApp", []);
+var myApp = angular.module("myApp", []);
 
-app.directive("defaultNativeTag", function(){
+myApp.controller("TagController", ['$scope', function($scope) {
+    $scope.adtagbox = [
+        "<default-native-tag></default-native-tag>"
+    ]
+}]);
+
+
+
+myApp.directive("defaultNativeTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/default.html'
@@ -8,7 +16,7 @@ app.directive("defaultNativeTag", function(){
 });
 
 
-app.directive("cookingPandaTag", function(){
+myApp.directive("cookingPandaTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/cookingpanda.html'
@@ -16,7 +24,7 @@ app.directive("cookingPandaTag", function(){
 });
 
 
-app.directive("diggTag", function(){
+myApp.directive("diggTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/digg.html'
@@ -24,7 +32,7 @@ app.directive("diggTag", function(){
 });
 
 
-app.directive("independentJournalTag", function(){
+myApp.directive("independentJournalTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/independentjournal.html'
@@ -32,7 +40,7 @@ app.directive("independentJournalTag", function(){
 });
 
 
-app.directive("legacyTag", function(){
+myApp.directive("legacyTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/legacy.html'
@@ -40,7 +48,7 @@ app.directive("legacyTag", function(){
 });
 
 
-app.directive("lifebuzzTag", function(){
+myApp.directive("lifebuzzTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/default.html'
@@ -48,7 +56,7 @@ app.directive("lifebuzzTag", function(){
 });
 
 
-app.directive("littleThingsTag", function(){
+myApp.directive("littleThingsTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/littlethings.html'
@@ -56,7 +64,7 @@ app.directive("littleThingsTag", function(){
 });
 
 
-app.directive("oldInstantArticlesTag", function(){
+myApp.directive("oldInstantArticlesTag", function(){
    return {
        restrict: 'E',
        templateUrl: 'tags/oldinstantarticles.html'
