@@ -10,10 +10,15 @@
 }
 
 .grid_box {
-    height: 400px;
-    width: 450px;
+    height: 500px;
+    width: 327px;
     display: inline-block;
-    border: 1px solid black;
+    border: 3px ridge #8e8e8e;
     margin: 30px;
     box-sizing: border-box;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 0 10px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 5px #888888;
 }

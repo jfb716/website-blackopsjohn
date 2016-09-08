@@ -14,12 +14,13 @@
         <link rel="stylesheet" media="(min-width:500px) and (max-width:732px)" href="css/med.css">
         <link rel="stylesheet" media="(min-width:732px) and (max-width:1050px)" href="css/large.css">
         <link rel="stylesheet" media="(min-width:1051px)" href="css/xlarge.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
         <script src="angular.js"></script>
         <script src="jquery.js"></script>
+        <script src="directives.js"></script>
     </head>
     <body>
         <main>
@@ -29,11 +30,39 @@
                    <li><a href="#tabs-1">Native Gallery</a></li>
                    <li><a href="#tabs-2">Tab 2</a></li>
                </ul>
-               <div id="tabs-1" ng-controller="TagController">
-                   <div class="grid_box" id="grid_1" ng-repeat="tag in adtagbox">
-                       {{tag}}
+               <div id="tabs-1">
+                   <div class="grid_box" id="grid_1">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi blanditiis magnam minus libero nesciunt nemo.</p>
+                        <default-native-tag></default-native-tag>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab maiores velit consequuntur dolor earum aspernatur nam.</p>
                    </div>
-                   
+                   <div class="grid_box" id="grid_2">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea tenetur harum, id libero, blanditiis ullam quas saepe et quod.</p>
+                        <cooking-panda-tag></cooking-panda-tag>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita nulla deleniti placeat.</p>
+                   </div>
+                   <div class="grid_box" id="grid_3">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea iusto ad dolores quos officia, qui,</p>
+                        <digg-tag></digg-tag>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum excepturi laborum similique unde repudiandae corporis.</p>
+                   </div>
+                   <div class="grid_box" id="grid_4">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tenetur asperiores inventore similique debitis provident dolor sit amet. Ea iustog.</p>
+                        <independent-journal-tag></independent-journal-tag>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur sequi, nostrum aliquam expedita corporis aspernatur quam, vel iusto, deserunt dolore sit commodi illo amet praesentium in quo, beatae fuga.</p>
+                   </div>
+                   <div class="grid_box" id="grid_5">
+                        <legacy-tag></legacy-tag>
+                   </div>
+                   <div class="grid_box" id="grid_6">
+                        <lifebuzz-tag></lifebuzz-tag>
+                   </div>
+                   <div class="grid_box" id="grid_7">
+                        <little-things-tag></little-things-tag>
+                   </div>
+                   <div class="grid_box" id="grid_8">
+                        <old-instant-articles-tag></old-instant-articles-tag>
+                   </div>
                </div>
            </div>
             
@@ -41,6 +70,7 @@
            <div class="black_bar"></div> 
         </main>
     </body>
+
 </html>
 
 
