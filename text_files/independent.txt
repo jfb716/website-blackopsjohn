@@ -2,7 +2,7 @@
   <iframe style="display:none;"></iframe>
   <script type="text/javascript">
     var data = {
-      placementid: '118220978561571_223415828042085',
+      placementid: 'PLACEMENT_ID',
       format: 'native',
       testmode: true,
       onAdLoaded: function(element) {
@@ -19,7 +19,7 @@
   <style>
    .thirdPartyRoot {
         font-size: 13px;
-        height: 110px;
+        height: 120px;
         line-height: 16px;
         position: relative;
         padding: 0px 5px;

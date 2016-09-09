@@ -2,7 +2,7 @@
   <iframe style="display:none;"></iframe>
   <script type="text/javascript">
     var data = {
-      placementid: '118220978561571_223415828042085',
+      placementid: 'PLACEMENT_ID',
       format: 'native',
       testmode: true,
       onAdLoaded: function(element) {
@@ -18,13 +18,11 @@
   <script type="text/javascript" src="https://connect.facebook.net/en_US/fbadnw.js" async></script>
   <style>
    .thirdPartyRoot {
-        font-size: 13px;
-        height: 110px;
+        font-size: 14px;
         line-height: 16px;
+        width: 300px;
+        height: 250px;
         position: relative;
-        padding: 0px 5px;
-        border-bottom: 1px solid rgb(222, 222, 222);
-        border-top: 1px solid rgb(222, 222, 222);
         }
       
       body {
@@ -32,49 +30,28 @@
       }
 
         .thirdPartyMediaClass {
-        width: 120px;
-        height: 90px;
-        display: block;
-        float: left;
-        margin-top: 12px;
-        }
-
-        .fbAdBody {
-        display: -webkit-box;
-        height: 30px;
-        -webkit-line-clamp: 2;
-        overflow: hidden;
-        padding-left: 10px;
-        font-weight: 500;
-        text-transform: capitalize;
-        font-family: Helvetica, Arial, sans-serif;
-        text-rendering: optimizeLegibility;
+        width: 300px;
+        height: 157px;
         }
 
         .thirdPartyTitleClass {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        padding: 0px 0px 0px 10px;
-        line-height: 18px;
-        font-size: 14px;
         font-weight: bold;
-        text-transform: capitalize;
-        font-family: Helvetica, Arial, sans-serif;
-        text-rendering: optimizeLegibility;
-        clear: right;
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: rgb(25, 25, 25);
+        font-size: 21px;
+        line-height: 24px;
+        display: -webkit-box;
+        margin: 8px 0px 4px;
         }
 
         .thirdPartyCallToActionClass {
-        font-family: sans-serif;
-        margin: 10px;
-        padding: 4px 5px;
+        color: rgb(253, 145, 39);
+        font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: bold;
-        color: rgb(255, 255, 255);
-        background-color: rgb(44, 49, 97);
-        text-transform: uppercase;
-        font-size: 11px;
+        font-size: 12px;
         float: right;
+        text-transform: uppercase;
+        margin-top: 50px;
         }
   </style>
   <div class="thirdPartyRoot">
@@ -83,7 +60,6 @@
     <div class="fbDefaultNativeAdWrapper">
       <div class="fbAdCallToAction thirdPartyCallToActionClass"></div>
       <div class="fbAdTitle thirdPartyTitleClass"></div>
-      <div class="fbAdBody"></div>
     </div>
   </a>
 </div>

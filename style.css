@@ -1,12 +1,13 @@
 .black_bar {
     background-color: black;
     height: 75px;
+    width: 100%;
 }
 
 #tabs-1 {
     height: 100%;
-    width: 100%;
     text-align: center;
+    background-color: #cbcbcb;
 }
 
 .grid_box {
@@ -21,4 +22,24 @@
     padding: 0 10px;
     background-color: #ffffff;
     box-shadow: 10px 10px 5px #888888;
+    color: #c6c6c6;
+}
+
+button {
+    margin-left: 30%;
+    margin-top: -10px;
+}
+
+.top_section_1 {
+    height: 80px;
+    background-color: #919191;
+    border-radius: 10px;
+}
+
+.back_color {
+    margin: 20px;
+}
+
+.adchoice_color {
+    margin: 20px;
 }

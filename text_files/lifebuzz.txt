@@ -2,7 +2,7 @@
   <iframe style="display:none;"></iframe>
   <script type="text/javascript">
     var data = {
-      placementid: '118220978561571_223415828042085',
+      placementid: 'PLACEMENT_ID',
       format: 'native',
       testmode: true,
       onAdLoaded: function(element) {
@@ -17,73 +17,53 @@
   </script>
   <script type="text/javascript" src="https://connect.facebook.net/en_US/fbadnw.js" async></script>
   <style>
-   .thirdPartyRoot {
-        font-size: 13px;
-        height: 110px;
+       .thirdPartyRoot {
+        font-size: 14px;
+        height: 100%;
         line-height: 16px;
         position: relative;
-        padding: 0px 5px;
-        border-bottom: 1px solid rgb(222, 222, 222);
-        border-top: 1px solid rgb(222, 222, 222);
-        }
+        margin: 0;
+        width: 100%;
+      }
+      .thirdPartyMediaClass {
+        height: 294px;
+        width: 100%;
+      }
       
       body {
           margin: 0;
       }
-
-        .thirdPartyMediaClass {
-        width: 120px;
-        height: 90px;
-        display: block;
-        float: left;
-        margin-top: 12px;
-        }
-
-        .fbAdBody {
-        display: -webkit-box;
-        height: 30px;
-        -webkit-line-clamp: 2;
-        overflow: hidden;
-        padding-left: 10px;
-        font-weight: 500;
-        text-transform: capitalize;
-        font-family: Helvetica, Arial, sans-serif;
-        text-rendering: optimizeLegibility;
-        }
-
-        .thirdPartyTitleClass {
+      
+      .thirdPartyTitleClass {
+        font-weight: bold;
+        font-size: 17px;
+        height: 20px;
         overflow: hidden;
         text-overflow: ellipsis;
+        color: #f00a71;
+        margin: 2px 0 3px 0;
         white-space: nowrap;
-        padding: 0px 0px 0px 10px;
-        line-height: 18px;
-        font-size: 14px;
+        font-family: "Neue Frutiger W01", sans-serif;
+      }
+      .thirdPartyCallToActionClass {
+        color: #FFFFFF;
+        font-family: "Neue Frutiger W01", sans-serif;
         font-weight: bold;
-        text-transform: capitalize;
-        font-family: Helvetica, Arial, sans-serif;
-        text-rendering: optimizeLegibility;
-        clear: right;
-        }
-
-        .thirdPartyCallToActionClass {
-        font-family: sans-serif;
-        margin: 10px;
-        padding: 4px 5px;
-        font-weight: bold;
-        color: rgb(255, 255, 255);
-        background-color: rgb(44, 49, 97);
-        text-transform: uppercase;
-        font-size: 11px;
-        float: right;
-        }
+        background-color: #f00a71;
+        padding: 2px;
+        border-radius: 5px;
+        font-size: 17px;
+        text-align: center;
+        margin: 3px 0 0 0;
+      }
   </style>
   <div class="thirdPartyRoot">
   <a class="fbAdLink">
     <div class="fbAdMedia thirdPartyMediaClass"></div>
+    <div class="fbAdSubtitle thirdPartySubtitleClass"></div>
     <div class="fbDefaultNativeAdWrapper">
       <div class="fbAdCallToAction thirdPartyCallToActionClass"></div>
       <div class="fbAdTitle thirdPartyTitleClass"></div>
-      <div class="fbAdBody"></div>
     </div>
   </a>
 </div>

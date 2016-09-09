@@ -3,7 +3,7 @@ var myApp = angular.module("myApp", []);
 myApp.directive("defaultNativeTag", function(){
    return {
        restrict: 'E',
-       template: '<iframe style="margin:0; border:0; padding:0" height="250" width="300" src="tags/default.html"></iframe>'
+       template: '<iframe class="default" style="margin:0; border:0; padding:0" height="250" width="300" src="tags/default.html"></iframe>'
    } 
 });
 
@@ -27,7 +27,7 @@ myApp.directive("diggTag", function(){
 myApp.directive("independentJournalTag", function(){
    return {
        restrict: 'E',
-       template: '<iframe style="margin:0; border:0; padding:0" height="130" width="300" src="tags/independentjournal.html"></iframe>'
+       template: '<iframe style="margin:0; border:0; padding:0" height="120" width="300" src="tags/independentjournal.html"></iframe>'
    } 
 });
 
@@ -35,7 +35,7 @@ myApp.directive("independentJournalTag", function(){
 myApp.directive("legacyTag", function(){
    return {
        restrict: 'E',
-       template: '<iframe style="margin:0; border:0; padding:0" height="250" width="300" src="tags/legacy.html"></iframe>'
+       template: '<iframe style="margin:0; border:0; padding:0" height="100" width="300" src="tags/legacy.html"></iframe>'
    } 
 });
 
