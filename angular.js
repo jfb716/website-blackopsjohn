@@ -64,3 +64,9 @@ myApp.directive("oldInstantArticlesTag", function(){
 });
 
 
+myApp.directive("bannerTag", function(){
+    return {
+       restrict: 'E',
+       template: '<iframe style="margin:0; border:0; padding:0" height="266" width="300" src="tags/banner.html"></iframe>'
+   } 
+});

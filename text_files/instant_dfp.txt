@@ -1,8 +1,10 @@
+<html>
+<body>
 <div style="display:none; position: relative;">
   <iframe style="display:none;"></iframe>
   <script type="text/javascript">
     var data = {
-      placementid: '118220978561571_223415828042085',
+      placementid: 'PLACEMENT_ID',
       format: 'native',
       testmode: true,
       onAdLoaded: function(element) {
@@ -85,3 +87,5 @@
   </a>
 </div>
 </div>
+</body>
+</html>

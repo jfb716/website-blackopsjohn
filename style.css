@@ -26,8 +26,9 @@
 }
 
 button {
-    margin-left: 30%;
+    margin-left: 14%;
     margin-top: -10px;
+    display: inline-block;
 }
 
 .top_section_1 {
