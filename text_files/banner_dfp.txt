@@ -4,7 +4,7 @@
       <iframe style="display:none;"></iframe>    
       <script type="text/javascript">    
         var data = {    
-          placementid: '118220978561571_126561504394185',    
+          placementid: 'PLACEMENT_ID',    
           format: '300x250',    
           testmode: false,    
           onAdLoaded: function(element) {    

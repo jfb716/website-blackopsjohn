@@ -6,7 +6,7 @@
     var data = {
       placementid: 'PLACEMENT_ID',
       format: 'native',
-      testmode: true,
+      testmode: false,
       onAdLoaded: function(element) {
         console.log('Audience Network ad loaded');
         element.style.display = 'block';
