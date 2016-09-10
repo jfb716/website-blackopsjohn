@@ -70,3 +70,18 @@ myApp.directive("bannerTag", function(){
        template: '<iframe style="margin:0; border:0; padding:0" height="266" width="300" src="tags/banner.html"></iframe>'
    } 
 });
+
+myApp.directive("chiveTrueTag", function(){
+    return {
+       restrict: 'E',
+       template: '<iframe style="margin:0; border:0; padding:0" height="140" width="300" src="tags/chive_true.html"></iframe>'
+   } 
+});
+
+
+myApp.directive("chiveBlockTag", function(){
+    return {
+       restrict: 'E',
+       template: '<iframe style="margin:0; border:0; padding:0" height="250" width="300" src="tags/chive_block.html"></iframe>'
+   } 
+});
