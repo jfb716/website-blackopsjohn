@@ -6,39 +6,34 @@ $(document).ready(function(){
 /* ------ Creates Buttons ------ */
     $("button").button();
     
-/* ------ Phone Background Color Toggle ------ */
-    var action = 1;
-    $(".back_color").click(function(){
-        if(action === 1) {
-          $(".grid_box").css({"background-color": "black"});  
-            action = 2;
-        }
-        else {
-         $(".grid_box").css({"background-color": "white"});   
-            action = 1;
-        }  
-    });
+/* ------ Tooltips ------- */
+
+
+    $(document).tooltip();
     
     
-/* ------ AdChoices Color Toggle ------ */
+/* ------ Site Color Toggle ------ */
     
-    var color = 1;
-    $(".adchoice_color").click(function(){
-        if(color === 1) {
-            console.log("White");
-          $(".fbAdChoices").css({"background-color": "white !important"});  
-          $(".fbAdChoices img").css({"background-color": "white !important"}); 
-            color = 2;
-        }
-        else {
-            console.log("Black");
-         $(".fbAdChoices").css({"background-color": "black !important"});  
-         $(".fbAdChoices imng").css({"background-color": "black !important"});  
-            color = 1;
-        }  
-    });
+$(".toggle_blk").click(function(){
+    $(".phone").css({"background-color": "black"})
+});
+
+$(".toggle_wht").click(function(){
+    $(".phone").css({"background-color": "white"})
+});
     
     
+    
+    /* ------ AdChoice Color Toggle ------ */
+    
+$(".adchoice_blk").click(function(){
+    $(".fbAdChoices").css({"background-color": "black"})
+});
+
+$(".adchoice_wht").click(function(){
+    $(".fbAdChoices").css({"background-color": "transparent"})
+    $(".fbAdChoices img").css({"background-color": "transparent"})
+});
     
     
 });

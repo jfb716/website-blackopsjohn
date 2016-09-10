@@ -25,22 +25,12 @@
     color: #c6c6c6;
 }
 
-button {
+.gallery_buttons {
     margin-left: 14%;
     margin-top: -10px;
     display: inline-block;
 }
 
-.top_section_1 {
-    height: 80px;
-    background-color: #919191;
-    border-radius: 10px;
-}
 
-.back_color {
-    margin: 20px;
-}
 
-.adchoice_color {
-    margin: 20px;
-}
+
