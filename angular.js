@@ -35,15 +35,15 @@ myApp.directive("independentJournalTag", function(){
 myApp.directive("legacyTag", function(){
    return {
        restrict: 'E',
-       template: '<iframe style="margin:0; border:0; padding:0" height="100" width="300" src="tags/legacy.html"></iframe>'
+       template: '<iframe style="margin:0; border:0; padding:0" height="120" width="300" src="tags/legacy.html"></iframe>'
    } 
 });
 
 
-myApp.directive("lifebuzzTag", function(){
+myApp.directive("newInstantArticlesTag", function(){
    return {
        restrict: 'E',
-       template: '<iframe style="margin:0; border:0" height="250" width="300" src="tags/default.html"></iframe>'
+       template: '<iframe style="margin:0; border:0" height="250" width="300" src="tags/newinstantarticles.html"></iframe>'
    } 
 });
 
