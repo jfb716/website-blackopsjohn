@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-US" ng-app="myApp">
+<html lang="en-US" ng-app="myApp" ng-controller="myCtrl">
     <head>
     
        <!-- Basic Stuff -->
@@ -14,7 +14,8 @@
         
         <!-- Styel Sheets -->
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" media="(max-width:499px)" href="css/small.css">
+        <link rel="stylesheet" media="(max-width:1200px)" href="small.css">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         
         <!-- JavaScript API's -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -32,7 +33,7 @@
            <div id="tabs">
                <ul>
                    <li><a href="#tabs-1">Native Gallery</a></li>
-                   <li><a href="#tabs-2">Native Builder</a></li>
+                   <li><a href="#tabs-2">Native Editor</a></li>
                    <li><a href="#tabs-3">Passback Helper</a></li>
                </ul>
                <div id="tabs-1">
@@ -117,19 +118,52 @@
                
                
                <div class="main" id="tabs-2">
-                        <hr>
-                        <div class="cat_box">
-                        <label for="site_color">Site Color: </label>
-                         <button class="toggle_blk button" title="Make site background Black">Black</button>
-                         <button class="toggle_wht button" title="Make site background White">White</button>
-                        </div>
-                        <hr>
-                        <div class="cat_box">
-                        <label for="adchoice_color">AdChoice Color: </label>
-                         <button class="adchoice_blk button" title="Make AdChoices Icon Black">Black</button>
-                         <button class="adchoice_wht button" title="Make AdChoices Icon White">White</button>
-                        </div>
-                        <hr>
+                       <div class="box_left">
+                               
+                                <label for="placementId">Placement-ID:<input id="placementId" type="text" ng-model="placementid"></label>
+                                <br>
+                                <hr>
+                                <br>
+                                <label for="ctaCol"><div title="Accepts RGB, HEX, or Color values (e.g. rgb(0,0,0), #000, Black)" class="ion-information-circled"></div>CTA-Color:<input type="text" id="ctaCol" ng-model="ctacolor"><button class="button ctaButton">Update</button></label>
+                                <br>
+                                <hr>
+                                <br>
+                                <label for="fontFam"><div title="Enter fonts seperated by commas, if font is more than one word enclose in double quotes (e.g. &quot;Times New Roman&quot;, Georgia, Serif)" class="ion-information-circled"></div>Font-Family:<input type="text" id="fontFam" ng-model="fontfamily" ng-init="Arial, Helvetica, sans-serif"><button class="button fontFamButton">Update</button></label>
+                                <br>
+                                <hr>
+                                <br>
+                                <label for="subFontWeight"><div title="Accepts any font weight values (e.g. 100, 200, 300, 400, 500, 600, 700, 800, 900, normal, bold, bolder, lighter)" class="ion-information-circled"></div>SubTitle-Weight:<input type="text" id="subFontWeight" ng-model="subFontWeight"><button class="button subWeightButton">Update</button></label>
+                                <br>
+                                <hr>
+                                <br>
+                                <label for="titFontWeight"><div title="Accepts any font weight values (e.g. 100, 200, 300, 400, 500, 600, 700, 800, 900, normal, bold, bolder, lighter)" class="ion-information-circled"></div>Title-Weight:<input type="text" id="titFontWeight" ng-model="titFontWeight"><button class="button titWeightButton">Update</button></label>
+                                <br>
+                                <hr>
+                                <br>
+                                <label for="ctaFontWeight"><div title="Accepts any font weight values (e.g. 100, 200, 300, 400, 500, 600, 700, 800, 900, normal, bold, bolder, lighter)" class="ion-information-circled"></div>CTA-Weight:<input type="text" id="ctaFontWeight" ng-model="ctaFontWeight"><button class="button ctaWeightButton">Update</button></label>
+                                <br>
+                                <hr>
+                                <br>
+                                <button class="button tagButton" title="Click to download a .txt file with the code for the ad shown in the middle of the page (also will match the exposed code on the right of the page).">Get Tag Code</button>
+                           </div>
+                           
+                           
+
+                          <div class="box_middle">
+                             <p>Lorem ipsum dolor sit. Doloremque tempore deleniti eos nisi fuga at eligendi quaerat odit nam aspernatur, dolorem inventore animi sunt! Lorem ipsum dolor sit amet. Necessitatibus, hic. Minus suscipit, saepe? Consecte.</p>
+                             <div style="height:250px;width:300px;margin:auto">
+                              <an-ad></an-ad>
+                             </div>
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Possimus quia natus, culpa, eveniet quia architecto odio veritatis quae maiores eum molestiae tempore quia provident quia explicabo harum in unde fuga quia porro atque perspiciatis!</p>
+                          </div>
+                          
+                          
+                          
+                          <div class="box_right" title="This is the tag running in the center of the page.  The values are dynamically updated when you type in the fields to the left.  You can copy this directly or click the &quot;Get Tag Code&quot; button on the left to download a .txt file.">
+                           
+                            <an-tag></an-tag>
+                            
+                          </div> 
                     </div>
            </div>
             
