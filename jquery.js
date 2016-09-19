@@ -68,6 +68,8 @@ $(".adchoice_wht").click(function(){
 
             $(".thirdPartyCallToActionClass").css({"color": ctaColorNew});
         });
+    
+    
 
         $(".fontFamButton").click(function(){
            console.log("Font Family Button Click");
@@ -77,32 +79,54 @@ $(".adchoice_wht").click(function(){
 
             $(".thirdPartyRoot").css({"font-family": fontFamNew});
         });
+    
+    
 
-        $(".subWeightButton").click(function(){
-           console.log("Subtitle Weight Button Click"); 
+        $(".subTitButton").click(function(){
+           console.log("Subtitle Update Button Click"); 
 
             var subWeNew = $("#subFontWeight").val();
             console.log(subWeNew);
+            
+            var subSiNew = $("#subFontSize").val();
+            console.log(subSiNew);
 
             $(".fbAdSubtitle").css({"font-weight": subWeNew});
+            $(".fbAdSubtitle").css({"font-size": subSiNew});
         });
+    
+    
 
-        $(".titWeightButton").click(function(){
-            console.log("Title Weight Button Click"); 
+        $(".titButton").click(function(){
+            console.log("Title Update Button Click"); 
 
             var titWeNew = $("#titFontWeight").val();
             console.log(titWeNew);
+            
+            var titSiNew = $("#titFontSize").val();
+            console.log(titSiNew);
 
             $(".fbAdTitle").css({"font-weight": titWeNew});
+            $(".fbAdTitle").css({"font-size": titSiNew});
         });
+    
+    
 
-        $(".ctaWeightButton").click(function(){
-            console.log("CTA Weight Button Click"); 
+        $(".ctaButton").click(function(){
+            console.log("CTA Update Button Click"); 
 
             var ctaWeNew = $("#ctaFontWeight").val();
             console.log(ctaWeNew);
+            
+            var ctaColorNew = $("#ctaCol").val();
+            console.log(ctaColorNew);
+            
+            var ctaSiNew = $("#ctaFontSize").val();
+            console.log(ctaSiNew);
 
             $(".thirdPartyCallToActionClass").css({"font-weight": ctaWeNew});
+            $(".thirdPartyCallToActionClass").css({"color": ctaColorNew});
+            $(".thirdPartyCallToActionClass").css({"font-size": ctaSiNew});
         });
 
 

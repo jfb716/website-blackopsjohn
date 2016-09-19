@@ -22,6 +22,9 @@ myApp.controller('myCtrl', function($scope) {
     $scope.subFontWeight = "800";
     $scope.titFontWeight = "700";
     $scope.ctaFontWeight = "700";
+    $scope.subFontSize = "13px";
+    $scope.titFontSize = "13px";
+    $scope.ctaFontSize = "13px";
     });
 
 myApp.directive("defaultNativeTag", function(){
