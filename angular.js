@@ -14,7 +14,6 @@ myApp.directive("anAd", function(){
    } 
 });
 
-
 myApp.controller('myCtrl', function($scope) {
     $scope.placementid = "PLACEMENT_ID";
     $scope.ctacolor = "rgb(108, 135, 216)";
