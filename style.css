@@ -128,11 +128,13 @@ input {
 
 .tagOutput {
     height: 500px;
-    width: 500px; 
+    width: 750px; 
     display: inline-block;
     box-sizing: border-box;
     position: absolute;
     left: 600px; 
     padding: 20px;
+    overflow-y: auto;
+    border: 3px ridge #8e8e8e;
 }
 

@@ -219,16 +219,16 @@
                           </div>
                           <div class="adSenseAsync">
                               <label for="adSenseAsyncWidth">Width: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <input id="adSenseAsyncWidth" type="text" ng-model="adsenseasyncwidth">
                               <br>
-                              <label for="adSenseAsyncWidth">Height: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <label for="adSenseAsyncHeight">Height: </label>
+                              <input id="adSenseAsyncHeight" type="text" ng-model="adsenseasyncheight">
                               <br>
-                              <label for="adSenseAsyncWidth">Ad Client ID: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <label for="adSenseAsyncClientId">Ad Client ID: </label>
+                              <input id="adSenseAsyncClientId" type="text" ng-model="adsenseasyncclientid">
                               <br>
-                              <label for="adSenseAsyncWidth">Ad Slot ID: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <label for="adSenseAsyncSlotId">Ad Slot ID: </label>
+                              <input id="adSenseAsyncSlotId" type="text" ng-model="adsenseasyncslotid">
                           </div>
                           <div class="adSenseSync">
                               <label for="adSenseAsyncWidth">Width: </label>
@@ -258,7 +258,10 @@
                           </div>
                            
                        </div>
-                       <textarea class="tagOutput"></textarea>
+                       <div class="tagOutput" title="TBD">
+                        <ad-sense-async></ad-sense-async>
+                            
+                     </div> 
                        
                 </div>
            </div>

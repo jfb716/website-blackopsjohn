@@ -7,6 +7,13 @@ myApp.directive("anTag", function(){
    } 
 });
 
+myApp.directive("adSenseAsync", function(){
+   return {
+       restrict: 'E',
+       templateUrl: 'adsenseasync.html'
+   } 
+});
+
 myApp.directive("anAd", function(){
    return {
        restrict: 'E',
