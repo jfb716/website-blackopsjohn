@@ -136,9 +136,13 @@ $(".adchoice_wht").click(function(){
     
 /* ------ Hide Vendor Control Divs On Page Load ------- */
 
-$(".adSenseAsync, .adSenseSync, .dfp, .adxAsync, .adxSync, .rubicon, adx-async").hide();
+$(".adSenseAsync, .adSenseSync, .dfp, .adxAsync, .adxSync, .rubicon, adx-async, #pageReload").hide();
 
+/* ------ Refresh Page Button ------- */
     
+$("#pageReload").click(function(){
+   location.reload(); 
+});
     
 /* ------ Passback Dropdown Value ------- */
 $(".passback_type").change(function(){
@@ -193,7 +197,7 @@ $(".passback_type").change(function(){
     
 
     
-$("#insertPassback").click(function(){
+$("#executeHelper").click(function(){
     console.log("Insert Passback Click");
 
         var value = $(".passback_type").val();
@@ -213,10 +217,10 @@ $("#insertPassback").click(function(){
            console.log(anTag);
             
            $("#drop_zone").hide();
-           $("#insertPassback").hide();
+           $("#executeHelper").hide();
            $(".passbackTest").css({"left": "25%"});
            $(".type_box").hide();
-           
+           $("#pageReload").show();
 
            var insertSpot = anTag.indexOf("errorCode +");
            console.log(insertSpot);

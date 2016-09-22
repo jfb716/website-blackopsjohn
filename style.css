@@ -166,15 +166,14 @@ input {
     background-color: white;
 }
 
-#insertPassback {
+#executeHelper {
     position: absolute;
     bottom: 20px;
-    left: 15%;
+    left: 35%;
 }
 
-#testPassback {
+#pageReload {
     position: absolute;
     bottom: 20px;
-    right: 15%;
+    left: 35%;
 }
-
