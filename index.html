@@ -184,10 +184,11 @@
                             <select class="passback_type menu" name="passback_type">
                               <option selected="selected" value="nothing" class="nothing">-</option>
                               <option value="passback_1" class="one">DFP</option>
-                              <option value="passback_2" class="two">AdX</option>
-                              <option value="passback_3" class="three">AdSense Async</option>
-                              <option value="passback_4" class="three">AdSense Sync</option>
-                              <option value="passback_5" class="four">Rubicon</option>
+                              <option value="passback_2" class="two">AdX Async</option>
+                              <option value="passback_3" class="three">AdX Sync</option>
+                              <option value="passback_4" class="four">AdSense Async</option>
+                              <option value="passback_5" class="five">AdSense Sync</option>
+                              <option value="passback_6" class="six">Rubicon</option>
                             </select>
                        </div>
                     <div class="controlBox">
@@ -204,7 +205,20 @@
                               <label for="adSenseAsyncWidth">Ad Slot ID: </label>
                               <input id="adSenseAsyncWidth" type="text">
                           </div>
-                          <div class="adx">
+                          <div class="adxAsync">
+                              <label for="adSenseAsyncWidth">Width: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="adxasyncwidth">
+                              <br>
+                              <label for="adSenseAsyncWidth">Height: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="adxasyncheight">
+                              <br>
+                              <label for="adSenseAsyncWidth">Ad Client ID: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="adxasyncclientid">
+                              <br>
+                              <label for="adSenseAsyncWidth">Ad Slot ID: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="adxasyncslotid">
+                          </div>
+                          <div class="adxSync">
                               <label for="adSenseAsyncWidth">Width: </label>
                               <input id="adSenseAsyncWidth" type="text">
                               <br>
@@ -256,12 +270,18 @@
                               <label for="adSenseAsyncWidth">Ad Slot ID: </label>
                               <input id="adSenseAsyncWidth" type="text">
                           </div>
+                          <button id="insertPassback">Insert Passback</button>
+                          <button id="testPassback">Test Passback</button>
                            
                        </div>
-                       <div class="tagOutput" title="TBD">
-                        <ad-sense-async></ad-sense-async>
+                       <div class="tagOutput">
+                        <adx-async></adx-async>
                             
                      </div> 
+                     <textarea id="drop_zone">Paste or Drop (.txt) Audience Network Tag Here</textarea>
+                     <div class="passbackTest passback_fb">
+                         
+                     </div>
                        
                 </div>
            </div>

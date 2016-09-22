@@ -7,10 +7,10 @@ myApp.directive("anTag", function(){
    } 
 });
 
-myApp.directive("adSenseAsync", function(){
+myApp.directive("adxAsync", function(){
    return {
        restrict: 'E',
-       templateUrl: 'adsenseasync.html'
+       templateUrl: 'adxasync.html'
    } 
 });
 

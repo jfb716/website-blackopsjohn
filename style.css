@@ -13,7 +13,8 @@
 }
 
 #tabs-3 {
-    height: 800px;
+    height: 1000px;
+    background-color: #cbcbcb;
 }
 
 .grid_box {
@@ -116,25 +117,64 @@ input {
 }
 
 .controlBox {
-    height: 500px;
-    width: 500px; 
-    border: 1px solid black;
+    height: 400px;
+    width: 45%; 
+    border: 3px ridge #8e8e8e;
     display: inline-block; 
     box-sizing: border-box; 
     position: absolute; 
     padding: 20px;
+    background-color: white;
 }
 
 
 .tagOutput {
-    height: 500px;
-    width: 750px; 
+    height: 400px;
+    width: 45%; 
     display: inline-block;
     box-sizing: border-box;
     position: absolute;
-    left: 600px; 
+    left: 50%; 
     padding: 20px;
     overflow-y: auto;
     border: 3px ridge #8e8e8e;
+    background-color: white;
+}
+
+#drop_zone { 
+    width: 45%;
+    border: 3px ridge #8e8e8e;
+    height: 400px;
+    position: absolute;
+    top: 600px;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.passbackTest {
+    height: 400px;
+    width: 45%; 
+    top: 600px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%; 
+    padding: 5% 10%;
+    overflow-y: auto;
+    border: 3px ridge #8e8e8e;
+    background-color: white;
+}
+
+#insertPassback {
+    position: absolute;
+    bottom: 20px;
+    left: 15%;
+}
+
+#testPassback {
+    position: absolute;
+    bottom: 20px;
+    right: 15%;
 }
 
