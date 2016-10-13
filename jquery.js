@@ -342,9 +342,18 @@ $("#demo_off").click(function(){
 });
 
 
-
-
-
+$("#tab-3, #demo_on, #demo_off").click(function(){
+    var cookie = document.cookie;
+    console.log(cookie);
+    if (cookie === 'demo=on') {
+      $("#demo_on").css({"border-color":"green"});
+      $("#demo_off").css({"border-color":"transparent"});
+  }
+    else {
+        $("#demo_off").css({"border-color":"green"});
+        $("#demo_on").css({"border-color":"transparent"});
+    }
+});
 
 
 
