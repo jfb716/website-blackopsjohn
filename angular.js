@@ -14,6 +14,13 @@ myApp.directive("adxAsync", function(){
    } 
 });
 
+myApp.directive("rubicon", function(){
+   return {
+       restrict: 'E',
+       templateUrl: 'rubicon.html'
+   } 
+});
+
 myApp.directive("anAd", function(){
    return {
        restrict: 'E',

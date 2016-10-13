@@ -38,7 +38,7 @@
                    <li><a href="#tabs-3">Passback Helper</a></li>
                </ul>
                <div id="tabs-1">
-                   <div class="grid_box" id="grid_0">
+                <!--   <div class="grid_box" id="grid_0">
                        <div class="ion-information-circled" title="Default Banner Tag"></div>
                        <p>Consectetur adipisicing elit. Commodi blanditiis magnam minus libero nesciunt nemo.</p>
                         <banner-tag></banner-tag>
@@ -125,12 +125,12 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Ipsum excepturi laborum similique unde repudiandae corporis.</p>
                         <a href="text_files/digg.txt" download="template_4"><button class="gallery_buttons">Direct</button></a>
                         <a href="text_files/digg_dfp.txt" download="template_4_dfp"><button class="gallery_buttons">DFP</button></a>
-                   </div>
-               </div>
+                   </div> -->
+               </div> 
                
                
                <div id="tabs-2">
-                   <div class="box_left">
+                  <div class="box_left">
                         <label for="placementId">Placement-ID:<input id="placementId" type="text" ng-model="placementid"></label>
                             <br>
                             <hr>
@@ -174,11 +174,12 @@
                      <div class="box_right" title="This is the tag running in the center of the page.  The values are dynamically updated when you type in the fields to the left.  You can copy this directly or click the &quot;Get Tag Code&quot; button on the left to download a .txt file.">
                         <an-tag></an-tag>
                             
-                     </div> 
-                </div>
+                     </div>
+                </div> 
                    
                 <div id="tabs-3">
                        
+                    <button id="demo_on">Demo On</button><button id="demo_off">Demo Off</button>
                     <div class="type_box">
                         <label for="passback_type">Passback Type: </label>
                             <select class="passback_type menu" name="passback_type">
@@ -259,16 +260,25 @@
                           </div>
                           <div class="rubicon">
                               <label for="adSenseAsyncWidth">Width: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <input id="adSenseAsyncWidth" type="text" ng-model="rubiconwidth">
                               <br>
                               <label for="adSenseAsyncWidth">Height: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <input id="adSenseAsyncWidth" type="text" ng-model="rubiconheight">
                               <br>
-                              <label for="adSenseAsyncWidth">Ad Client ID: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <label for="adSenseAsyncWidth">Account: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="rubiconaccount">
                               <br>
-                              <label for="adSenseAsyncWidth">Ad Slot ID: </label>
-                              <input id="adSenseAsyncWidth" type="text">
+                              <label for="adSenseAsyncWidth">Site: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="rubiconsite">
+                              <br>
+                              <label for="adSenseAsyncWidth">ZoneSize: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="rubiconzonesize">
+                              <br>
+                              <label for="adSenseAsyncWidth">Ad Type: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="rubiconadtype">
+                              <br>
+                              <label for="adSenseAsyncWidth">Smart File: </label>
+                              <input id="adSenseAsyncWidth" type="text" ng-model="rubiconsmartfile">
                           </div>
                           <button id="executeHelper">Execute Helper</button>
                           <button id="pageReload">Refresh Page</button>
@@ -276,10 +286,11 @@
                        </div>
                        <div class="tagOutput">
                         <adx-async></adx-async>
+                        <rubicon></rubicon>
                             
                      </div> 
                      <textarea id="drop_zone">Paste or Drop (.txt) Audience Network Tag Here</textarea>
-                     <div class="passbackTest passback_fb">
+                     <div class="passbackTest">
                          
                      </div>
                        
