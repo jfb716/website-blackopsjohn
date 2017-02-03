@@ -53,7 +53,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'app works!';
+        this.title = 'JW & AN Video Test';
     }
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["U" /* Component */])({
@@ -143,7 +143,7 @@ module.exports = ""
 /***/ 607:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\n  {{title}}\n</h1>\n"
+module.exports = "<h1> {{ title }} </h1>\n\n<h2>Video Player Embed:</h2>\n"
 
 /***/ }),
 
