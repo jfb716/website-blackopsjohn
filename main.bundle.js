@@ -22,8 +22,8 @@ var VideoComponent = (function () {
     VideoComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
             selector: 'an-video',
-            template: __webpack_require__(733),
-            styles: [__webpack_require__(730)]
+            template: __webpack_require__(745),
+            styles: [__webpack_require__(736)]
         }), 
         __metadata('design:paramtypes', [])
     ], VideoComponent);
@@ -34,6 +34,39 @@ var VideoComponent = (function () {
 /***/ }),
 
 /***/ 400:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FullComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var FullComponent = (function () {
+    function FullComponent() {
+    }
+    FullComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
+            selector: 'full-width',
+            template: __webpack_require__(747),
+            styles: [__webpack_require__(738)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], FullComponent);
+    return FullComponent;
+}());
+//# sourceMappingURL=/Volumes/G-DRIVE/coding/Web/blackopsjohn-master/src/full-width.component.js.map
+
+/***/ }),
+
+/***/ 401:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55,8 +88,8 @@ var BiddingComponent = (function () {
     BiddingComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
             selector: 'header-bidding',
-            template: __webpack_require__(735),
-            styles: [__webpack_require__(732)]
+            template: __webpack_require__(748),
+            styles: [__webpack_require__(739)]
         }), 
         __metadata('design:paramtypes', [])
     ], BiddingComponent);
@@ -66,7 +99,172 @@ var BiddingComponent = (function () {
 
 /***/ }),
 
-/***/ 452:
+/***/ 402:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NativeEComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var NativeEComponent = (function () {
+    function NativeEComponent() {
+    }
+    NativeEComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
+            selector: 'native-editor',
+            template: __webpack_require__(749),
+            styles: [__webpack_require__(740)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], NativeEComponent);
+    return NativeEComponent;
+}());
+//# sourceMappingURL=/Volumes/G-DRIVE/coding/Web/blackopsjohn-master/src/native-editor.component.js.map
+
+/***/ }),
+
+/***/ 403:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NativeComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var NativeComponent = (function () {
+    function NativeComponent() {
+    }
+    NativeComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
+            selector: 'native-gallery',
+            template: __webpack_require__(750),
+            styles: [__webpack_require__(741)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], NativeComponent);
+    return NativeComponent;
+}());
+//# sourceMappingURL=/Volumes/G-DRIVE/coding/Web/blackopsjohn-master/src/native-gallery.component.js.map
+
+/***/ }),
+
+/***/ 404:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PassbackComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PassbackComponent = (function () {
+    function PassbackComponent() {
+    }
+    PassbackComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
+            selector: 'passback-tool',
+            template: __webpack_require__(751),
+            styles: [__webpack_require__(742)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], PassbackComponent);
+    return PassbackComponent;
+}());
+//# sourceMappingURL=/Volumes/G-DRIVE/coding/Web/blackopsjohn-master/src/passback-tool.component.js.map
+
+/***/ }),
+
+/***/ 405:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PrebidComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var PrebidComponent = (function () {
+    function PrebidComponent() {
+    }
+    PrebidComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
+            selector: 'prebid-script',
+            template: __webpack_require__(752),
+            styles: [__webpack_require__(743)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], PrebidComponent);
+    return PrebidComponent;
+}());
+//# sourceMappingURL=/Volumes/G-DRIVE/coding/Web/blackopsjohn-master/src/prebid-script.component.js.map
+
+/***/ }),
+
+/***/ 406:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return XboxComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var XboxComponent = (function () {
+    function XboxComponent() {
+    }
+    XboxComponent = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
+            selector: 'xbox-tracker',
+            template: __webpack_require__(753),
+            styles: [__webpack_require__(744)]
+        }), 
+        __metadata('design:paramtypes', [])
+    ], XboxComponent);
+    return XboxComponent;
+}());
+//# sourceMappingURL=/Volumes/G-DRIVE/coding/Web/blackopsjohn-master/src/xbox-tracker.component.js.map
+
+/***/ }),
+
+/***/ 458:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -75,20 +273,20 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 452;
+webpackEmptyContext.id = 458;
 
 
 /***/ }),
 
-/***/ 453:
+/***/ 459:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(540);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(546);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(576);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_app_module__ = __webpack_require__(575);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__environments_environment__ = __webpack_require__(582);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_app_module__ = __webpack_require__(581);
 
 
 
@@ -101,14 +299,20 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 573:
+/***/ 579:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(560);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(566);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__an_video_an_video_component__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__header_bidding_header_bidding_component__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__header_bidding_header_bidding_component__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__prebid_script_prebid_script_component__ = __webpack_require__(405);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__full_width_full_width_component__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__xbox_tracker_xbox_tracker_component__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__native_gallery_native_gallery_component__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__native_editor_native_editor_component__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__passback_tool_passback_tool_component__ = __webpack_require__(404);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -123,10 +327,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
+
+
+
 var routes = [
     { path: '', redirectTo: '/an-video', pathMatch: 'full' },
     { path: 'an-video', component: __WEBPACK_IMPORTED_MODULE_2__an_video_an_video_component__["a" /* VideoComponent */] },
     { path: 'header-bidding', component: __WEBPACK_IMPORTED_MODULE_3__header_bidding_header_bidding_component__["a" /* BiddingComponent */] },
+    { path: 'prebid-script', component: __WEBPACK_IMPORTED_MODULE_4__prebid_script_prebid_script_component__["a" /* PrebidComponent */] },
+    { path: 'full-width', component: __WEBPACK_IMPORTED_MODULE_5__full_width_full_width_component__["a" /* FullComponent */] },
+    { path: 'xbox-tracker', component: __WEBPACK_IMPORTED_MODULE_6__xbox_tracker_xbox_tracker_component__["a" /* XboxComponent */] },
+    { path: 'native-gallery', component: __WEBPACK_IMPORTED_MODULE_7__native_gallery_native_gallery_component__["a" /* NativeComponent */] },
+    { path: 'native-editor', component: __WEBPACK_IMPORTED_MODULE_8__native_editor_native_editor_component__["a" /* NativeEComponent */] },
+    { path: 'passback-tool', component: __WEBPACK_IMPORTED_MODULE_9__passback_tool_passback_tool_component__["a" /* PassbackComponent */] }
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {
@@ -144,7 +360,7 @@ var AppRoutingModule = (function () {
 
 /***/ }),
 
-/***/ 574:
+/***/ 580:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -166,8 +382,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
             selector: 'app',
-            template: __webpack_require__(734),
-            styles: [__webpack_require__(731)]
+            template: __webpack_require__(746),
+            styles: [__webpack_require__(737)]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -177,19 +393,25 @@ var AppComponent = (function () {
 
 /***/ }),
 
-/***/ 575:
+/***/ 581:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(153);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(536);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__ = __webpack_require__(570);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(574);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(542);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__ = __webpack_require__(576);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(580);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__an_video_an_video_component__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_bidding_header_bidding_component__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_routing_module__ = __webpack_require__(573);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_bidding_header_bidding_component__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__prebid_script_prebid_script_component__ = __webpack_require__(405);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__full_width_full_width_component__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__xbox_tracker_xbox_tracker_component__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__native_gallery_native_gallery_component__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__native_editor_native_editor_component__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__passback_tool_passback_tool_component__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__app_routing_module__ = __webpack_require__(579);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -209,6 +431,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
+
+
+
 var AppModule = (function () {
     function AppModule() {
     }
@@ -217,11 +445,17 @@ var AppModule = (function () {
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
                 __WEBPACK_IMPORTED_MODULE_6__an_video_an_video_component__["a" /* VideoComponent */],
-                __WEBPACK_IMPORTED_MODULE_7__header_bidding_header_bidding_component__["a" /* BiddingComponent */]
+                __WEBPACK_IMPORTED_MODULE_7__header_bidding_header_bidding_component__["a" /* BiddingComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__prebid_script_prebid_script_component__["a" /* PrebidComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__full_width_full_width_component__["a" /* FullComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__xbox_tracker_xbox_tracker_component__["a" /* XboxComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__native_gallery_native_gallery_component__["a" /* NativeComponent */],
+                __WEBPACK_IMPORTED_MODULE_12__native_editor_native_editor_component__["a" /* NativeEComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__passback_tool_passback_tool_component__["a" /* PassbackComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_8__app_routing_module__["a" /* AppRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_14__app_routing_module__["a" /* AppRoutingModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */].forRoot()
@@ -237,7 +471,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 576:
+/***/ 582:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -253,55 +487,139 @@ var environment = {
 
 /***/ }),
 
-/***/ 730:
+/***/ 736:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 731:
+/***/ 737:
 /***/ (function(module, exports) {
 
 module.exports = "\n"
 
 /***/ }),
 
-/***/ 732:
+/***/ 738:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 733:
+/***/ 739:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n<h1>john</h1>  \n</div>\n"
+module.exports = "\n"
 
 /***/ }),
 
-/***/ 734:
+/***/ 740:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 741:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 742:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 743:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 744:
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ 745:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n<h1>AN Video</h1>\n</div>\n"
+
+/***/ }),
+
+/***/ 746:
 /***/ (function(module, exports) {
 
 module.exports = "\n<div class=\"container\">\n  <nav class=\"navbar navbar-toggleable-md navbar-inverse bg-inverse\">\n    <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n      <div class=\"navbar-nav\">\n          <a class=\"nav-item nav-link\" routerLink=\"/an-video\">AN Video</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/header-bidding\">Header Bidding</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/prebid-script\">Prebid Script</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/full-width\">Full Width</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/xbox-tracker\">Xbox Tracker</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/native-gallery\">Native Gallery</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/native-editor\">Native Editor</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/passback-tool\">Passback Tool</a>\n      </div>\n    </div>\n  </nav>\n</div>\n\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
-/***/ 735:
+/***/ 747:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n    <h1>black</h1>\n</div>\n"
+module.exports = "<div class=\"container\">\n    <h1>Full Width</h1>\n</div>\n"
 
 /***/ }),
 
-/***/ 756:
+/***/ 748:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h1>Header Bidding</h1>\n</div>\n"
+
+/***/ }),
+
+/***/ 749:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h1>Native Editor</h1>\n</div>\n"
+
+/***/ }),
+
+/***/ 750:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h1>Native Gallery</h1>\n</div>\n"
+
+/***/ }),
+
+/***/ 751:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h1>Passback Tool</h1>\n</div>\n"
+
+/***/ }),
+
+/***/ 752:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h1>Prebid Script</h1>\n</div>\n"
+
+/***/ }),
+
+/***/ 753:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n    <h1>Xbox Tracker</h1>\n</div>\n"
+
+/***/ }),
+
+/***/ 774:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(453);
+module.exports = __webpack_require__(459);
 
 
 /***/ })
 
-},[756]);
+},[774]);
 //# sourceMappingURL=main.bundle.map

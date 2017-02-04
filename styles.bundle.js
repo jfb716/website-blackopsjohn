@@ -1,15 +1,15 @@
 webpackJsonp([2,4],{
 
-/***/ 455:
+/***/ 461:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(727);
+var content = __webpack_require__(733);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(754)(content, {});
+var update = __webpack_require__(772)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -27,22 +27,22 @@ if(false) {
 
 /***/ }),
 
-/***/ 727:
+/***/ 733:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(728)();
+exports = module.exports = __webpack_require__(734)();
 // imports
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #292b2c;\n}\n", ""]);
+exports.push([module.i, "body {\n  background-color: #292b2c;\n}\n\nh1 {\n  color: white;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 728:
+/***/ 734:
 /***/ (function(module, exports) {
 
 /*
@@ -99,7 +99,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 754:
+/***/ 772:
 /***/ (function(module, exports) {
 
 /*
@@ -352,13 +352,13 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 758:
+/***/ 776:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(455);
+module.exports = __webpack_require__(461);
 
 
 /***/ })
 
-},[758]);
+},[776]);
 //# sourceMappingURL=styles.bundle.map
