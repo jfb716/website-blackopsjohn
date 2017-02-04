@@ -126,7 +126,7 @@ var anObject       = __webpack_require__(4)
   , toPrimitive    = __webpack_require__(72)
   , dP             = Object.defineProperty;
 
-exports.f = __webpack_require__(18) ? Object.defineProperty : function defineProperty(O, P, Attributes){
+exports.f = __webpack_require__(19) ? Object.defineProperty : function defineProperty(O, P, Attributes){
   anObject(O);
   P = toPrimitive(P, true);
   anObject(Attributes);
@@ -140,7 +140,8 @@ exports.f = __webpack_require__(18) ? Object.defineProperty : function definePro
 
 /***/ }),
 /* 17 */,
-/* 18 */
+/* 18 */,
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
@@ -149,7 +150,6 @@ module.exports = !__webpack_require__(6)(function(){
 });
 
 /***/ }),
-/* 19 */,
 /* 20 */,
 /* 21 */
 /***/ (function(module, exports) {
@@ -359,7 +359,7 @@ module.exports = function(it){
 
 var dP         = __webpack_require__(16)
   , createDesc = __webpack_require__(71);
-module.exports = __webpack_require__(18) ? function(object, key, value){
+module.exports = __webpack_require__(19) ? function(object, key, value){
   return dP.f(object, key, createDesc(1, value));
 } : function(object, key, value){
   object[key] = value;
@@ -546,7 +546,7 @@ var pIE            = __webpack_require__(160)
   , IE8_DOM_DEFINE = __webpack_require__(416)
   , gOPD           = Object.getOwnPropertyDescriptor;
 
-exports.f = __webpack_require__(18) ? gOPD : function getOwnPropertyDescriptor(O, P){
+exports.f = __webpack_require__(19) ? gOPD : function getOwnPropertyDescriptor(O, P){
   O = toIObject(O);
   P = toPrimitive(P, true);
   if(IE8_DOM_DEFINE)try {
@@ -1426,7 +1426,7 @@ module.exports = {
 
 var global      = __webpack_require__(14)
   , dP          = __webpack_require__(16)
-  , DESCRIPTORS = __webpack_require__(18)
+  , DESCRIPTORS = __webpack_require__(19)
   , SPECIES     = __webpack_require__(10)('species');
 
 module.exports = function(KEY){
@@ -1759,7 +1759,7 @@ var dP          = __webpack_require__(16).f
   , $iterDefine = __webpack_require__(248)
   , step        = __webpack_require__(422)
   , setSpecies  = __webpack_require__(254)
-  , DESCRIPTORS = __webpack_require__(18)
+  , DESCRIPTORS = __webpack_require__(19)
   , fastKey     = __webpack_require__(59).fastKey
   , SIZE        = DESCRIPTORS ? '_s' : 'size';
 
@@ -1927,7 +1927,7 @@ module.exports = __webpack_require__(14).document && document.documentElement;
 /* 416 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = !__webpack_require__(18) && !__webpack_require__(6)(function(){
+module.exports = !__webpack_require__(19) && !__webpack_require__(6)(function(){
   return Object.defineProperty(__webpack_require__(414)('div'), 'a', {get: function(){ return 7; }}).a != 7;
 });
 
@@ -2081,7 +2081,7 @@ var dP       = __webpack_require__(16)
   , anObject = __webpack_require__(4)
   , getKeys  = __webpack_require__(86);
 
-module.exports = __webpack_require__(18) ? Object.defineProperties : function defineProperties(O, Properties){
+module.exports = __webpack_require__(19) ? Object.defineProperties : function defineProperties(O, Properties){
   anObject(O);
   var keys   = getKeys(Properties)
     , length = keys.length
@@ -2292,7 +2292,7 @@ module.exports = __webpack_require__(241)('Map', function(get){
 /***/ (function(module, exports, __webpack_require__) {
 
 // 21.2.5.3 get RegExp.prototype.flags()
-if(__webpack_require__(18) && /./g.flags != 'g')__webpack_require__(16).f(RegExp.prototype, 'flags', {
+if(__webpack_require__(19) && /./g.flags != 'g')__webpack_require__(16).f(RegExp.prototype, 'flags', {
   configurable: true,
   get: __webpack_require__(244)
 });
@@ -2446,7 +2446,7 @@ module.exports = __webpack_require__(241)('Set', function(get){
 // ECMAScript 6 symbols shim
 var global         = __webpack_require__(14)
   , has            = __webpack_require__(21)
-  , DESCRIPTORS    = __webpack_require__(18)
+  , DESCRIPTORS    = __webpack_require__(19)
   , $export        = __webpack_require__(1)
   , redefine       = __webpack_require__(22)
   , META           = __webpack_require__(59).KEY
@@ -3967,7 +3967,7 @@ var isExtensible = Object.isExtensible || function(){
 };
 
 // 19.2.4.2 name
-NAME in FProto || __webpack_require__(18) && dP(FProto, NAME, {
+NAME in FProto || __webpack_require__(19) && dP(FProto, NAME, {
   configurable: true,
   get: function(){
     try {
@@ -4321,7 +4321,7 @@ if(!$Number(' 0o1') || !$Number('0b1') || $Number('+0x1')){
       && (BROKEN_COF ? fails(function(){ proto.valueOf.call(that); }) : cof(that) != NUMBER)
         ? inheritIfRequired(new Base(toNumber(it)), that, $Number) : toNumber(it);
   };
-  for(var keys = __webpack_require__(18) ? gOPN(Base) : (
+  for(var keys = __webpack_require__(19) ? gOPN(Base) : (
     // ES3:
     'MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,' +
     // ES6 (in case, if modules with ES6 Number statics required before):
@@ -4599,7 +4599,7 @@ $export($export.S, 'Object', {create: __webpack_require__(85)});
 
 var $export = __webpack_require__(1);
 // 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
-$export($export.S + $export.F * !__webpack_require__(18), 'Object', {defineProperties: __webpack_require__(425)});
+$export($export.S + $export.F * !__webpack_require__(19), 'Object', {defineProperties: __webpack_require__(425)});
 
 /***/ }),
 /* 671 */
@@ -4607,7 +4607,7 @@ $export($export.S + $export.F * !__webpack_require__(18), 'Object', {definePrope
 
 var $export = __webpack_require__(1);
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-$export($export.S + $export.F * !__webpack_require__(18), 'Object', {defineProperty: __webpack_require__(16).f});
+$export($export.S + $export.F * !__webpack_require__(19), 'Object', {defineProperty: __webpack_require__(16).f});
 
 /***/ }),
 /* 672 */
@@ -5112,7 +5112,7 @@ var global            = __webpack_require__(14)
   // "new" creates a new object, old webkit buggy here
   , CORRECT_NEW       = new $RegExp(re1) !== re1;
 
-if(__webpack_require__(18) && (!CORRECT_NEW || __webpack_require__(6)(function(){
+if(__webpack_require__(19) && (!CORRECT_NEW || __webpack_require__(6)(function(){
   re2[__webpack_require__(10)('match')] = false;
   // RegExp constructor can alter flags and IsRegExp works correct with @@match
   return $RegExp(re1) != re1 || $RegExp(re2) == re2 || $RegExp(re1, 'i') != '/a/i';
@@ -5151,7 +5151,7 @@ __webpack_require__(254)('RegExp');
 __webpack_require__(436);
 var anObject    = __webpack_require__(4)
   , $flags      = __webpack_require__(244)
-  , DESCRIPTORS = __webpack_require__(18)
+  , DESCRIPTORS = __webpack_require__(19)
   , TO_STRING   = 'toString'
   , $toString   = /./[TO_STRING];
 

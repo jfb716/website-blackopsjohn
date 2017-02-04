@@ -402,16 +402,17 @@ var AppComponent = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(542);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__ = __webpack_require__(576);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__(580);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__an_video_an_video_component__ = __webpack_require__(399);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__header_bidding_header_bidding_component__ = __webpack_require__(401);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__prebid_script_prebid_script_component__ = __webpack_require__(405);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__full_width_full_width_component__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__xbox_tracker_xbox_tracker_component__ = __webpack_require__(406);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__native_gallery_native_gallery_component__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__native_editor_native_editor_component__ = __webpack_require__(402);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__passback_tool_passback_tool_component__ = __webpack_require__(404);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__app_routing_module__ = __webpack_require__(579);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(580);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__an_video_an_video_component__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__header_bidding_header_bidding_component__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__prebid_script_prebid_script_component__ = __webpack_require__(405);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__full_width_full_width_component__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__xbox_tracker_xbox_tracker_component__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__native_gallery_native_gallery_component__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__native_editor_native_editor_component__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__passback_tool_passback_tool_component__ = __webpack_require__(404);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__app_routing_module__ = __webpack_require__(579);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -437,31 +438,32 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_6__an_video_an_video_component__["a" /* VideoComponent */],
-                __WEBPACK_IMPORTED_MODULE_7__header_bidding_header_bidding_component__["a" /* BiddingComponent */],
-                __WEBPACK_IMPORTED_MODULE_8__prebid_script_prebid_script_component__["a" /* PrebidComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__full_width_full_width_component__["a" /* FullComponent */],
-                __WEBPACK_IMPORTED_MODULE_10__xbox_tracker_xbox_tracker_component__["a" /* XboxComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__native_gallery_native_gallery_component__["a" /* NativeComponent */],
-                __WEBPACK_IMPORTED_MODULE_12__native_editor_native_editor_component__["a" /* NativeEComponent */],
-                __WEBPACK_IMPORTED_MODULE_13__passback_tool_passback_tool_component__["a" /* PassbackComponent */]
+                __WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_7__an_video_an_video_component__["a" /* VideoComponent */],
+                __WEBPACK_IMPORTED_MODULE_8__header_bidding_header_bidding_component__["a" /* BiddingComponent */],
+                __WEBPACK_IMPORTED_MODULE_9__prebid_script_prebid_script_component__["a" /* PrebidComponent */],
+                __WEBPACK_IMPORTED_MODULE_10__full_width_full_width_component__["a" /* FullComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__xbox_tracker_xbox_tracker_component__["a" /* XboxComponent */],
+                __WEBPACK_IMPORTED_MODULE_12__native_gallery_native_gallery_component__["a" /* NativeComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__native_editor_native_editor_component__["a" /* NativeEComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__passback_tool_passback_tool_component__["a" /* PassbackComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_14__app_routing_module__["a" /* AppRoutingModule */],
+                __WEBPACK_IMPORTED_MODULE_15__app_routing_module__["a" /* AppRoutingModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
                 __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_4__ng_bootstrap_ng_bootstrap__["a" /* NgbModule */].forRoot()
             ],
-            providers: [],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
+            providers: [{ provide: __WEBPACK_IMPORTED_MODULE_5__angular_common__["a" /* LocationStrategy */], useClass: __WEBPACK_IMPORTED_MODULE_5__angular_common__["b" /* HashLocationStrategy */] }],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* AppComponent */]]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);
