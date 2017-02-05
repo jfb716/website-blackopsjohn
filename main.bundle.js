@@ -150,6 +150,86 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var NativeComponent = (function () {
     function NativeComponent() {
+        this.pageTitle = "Native Gallery";
+        this.native = [
+            {
+                title: 'Default Banner',
+                native_image: 'http://blackopsjohn.com/native_gallery/tag_images/default_banner.JPG',
+                size: '300x250',
+                integration: 'DFP',
+                file_url: 'http://blackopsjohn.com/native_gallery/tag_code/default_banner.txt',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            },
+            {
+                title: 'Example 2',
+                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
+                size: '300x100',
+                integration: 'Direct On Page',
+                file_url: 'http://www.google.com',
+            }
+        ];
     }
     NativeComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Component */])({
@@ -590,7 +670,7 @@ module.exports = "<div class=\"container\">\n    <h1>Native Editor</h1>\n</div>\
 /***/ 750:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n    <h1>Native Gallery</h1>\n</div>\n"
+module.exports = "<div class=\"container\">\n    <h1>{{pageTitle}}</h1>\n\n      <div class=\"card-columns\">\n        <div class=\"card card-css\" *ngFor=\"let nat of native\">\n          <div class=\"card-block\">\n            <h3 class=\"card-title text-muted\">{{nat.title}}</h3>\n            <hr>\n            <img class=\"card-img\" src=\"{{nat.native_image}}\" alt=\"Card image cap\">\n            <hr>\n            <p class=\"card-text\"><span class=\"badge badge-default\">Size:</span> {{nat.size}}</p>\n            <p class=\"card-text\"><span class=\"badge badge-default\">Integration:</span> {{nat.integration}}</p>\n            <div>\n              <a class=\"btn btn-lg btn-secondary btn-block\" href=\"{{nat.file_url}}\" download=\"audience-network-tag.txt\">Get Code</a>\n            </div>\n          </div>\n        </div>\n      </div>\n\n\n</div>\n"
 
 /***/ }),
 
