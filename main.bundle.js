@@ -160,11 +160,11 @@ var NativeComponent = (function () {
                 file_url: 'http://blackopsjohn.com/native_gallery/tag_code/default_banner.txt',
             },
             {
-                title: 'Example 2',
-                native_image: 'http://www.hotel-trapani.com/img/300x250.gif',
-                size: '300x100',
+                title: 'Default Native',
+                native_image: 'http://blackopsjohn.com/native_gallery/tag_images/default_native.JPG',
+                size: '300x250',
                 integration: 'Direct On Page',
-                file_url: 'http://www.google.com',
+                file_url: 'http://blackopsjohn.com/native_gallery/tag_code/default_native.txt',
             },
             {
                 title: 'Example 2',
@@ -572,7 +572,7 @@ var environment = {
 /***/ 736:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "\n"
 
 /***/ }),
 
@@ -607,7 +607,7 @@ module.exports = ""
 /***/ 741:
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "\n"
 
 /***/ }),
 
@@ -642,7 +642,7 @@ module.exports = "<div class=\"container\">\n<h1>AN Video</h1>\n</div>\n"
 /***/ 746:
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"container\">\n  <nav class=\"navbar navbar-toggleable-md navbar-inverse bg-inverse\">\n    <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n      <div class=\"navbar-nav\">\n          <a class=\"nav-item nav-link\" routerLink=\"/an-video\">AN Video</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/header-bidding\">Header Bidding</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/prebid-script\">Prebid Script</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/full-width\">Full Width</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/xbox-tracker\">Xbox Tracker</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/native-gallery\">Native Gallery</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/native-editor\">Native Editor</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/passback-tool\">Passback Tool</a>\n      </div>\n    </div>\n  </nav>\n</div>\n\n<router-outlet></router-outlet>\n"
+module.exports = "\n<div class=\"container\">\n  <nav class=\"navbar navbar-toggleable-sm navbar-inverse bg-inverse h5\">\n    <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">\n    <div class=\"navbar-nav\">\n          <a class=\"navbar-brand\" routerLink=\"/an-video\"><img src=\"http://blackopsjohn.com/an_logo.png\" width=\"55\" height=\"55\" class=\"d-inline-block align-top\" alt=\"\"></a>\n          <a class=\"nav-item nav-link\" routerLink=\"/an-video\">AN Video</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/header-bidding\">Header Bidding</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/prebid-script\">Prebid Script</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/full-width\">Full Width</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/xbox-tracker\">Xbox Tracker</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/native-gallery\">Native Gallery</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/native-editor\">Native Editor</a>\n          <a class=\"nav-item nav-link\" routerLink=\"/passback-tool\">Passback Tool</a>\n    </div>\n    </div>\n  </nav>\n</div>\n\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 

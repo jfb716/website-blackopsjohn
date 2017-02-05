@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__(734)();
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #292b2c;\n}\n\nh1 {\n  color: white;\n}\n", ""]);
+exports.push([module.i, "body {\n  background-color: #292b2c;\n}\n\nh1 {\n  color: rgba(255,255,255,.5);\n  text-align: center;\n  margin: 20px;\n  border-top: 2px solid #58409b;\n  border-bottom: 2px solid #58409b;\n  padding: 25px;\n}\n", ""]);
 
 // exports
 
