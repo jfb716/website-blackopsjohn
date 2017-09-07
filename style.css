@@ -1,16 +1,38 @@
-body {
+.details {
+  text-align: center;
+  line-height: 2px;
+}
+
+html {
   background-color: #292b2c;
+  color: white;
+  text-align: center;
 }
 
-.initialism {
-  font-size: 10px;
-  padding: 1px 2px;
+.adSlot1, .adSlot2, .adSlot3 {
+  background-color: white;
+  margin: auto;
 }
 
-.card {
-  margin: 4px;
+.adSlot4 {
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  z-index: 1000;
+  left: 0;
+  right: 0;
 }
 
-.card-block {
-  padding: 5px;
+.adSlot5 {
+  left: 0;
+  right: 0;
+  background-color: white;
+  margin: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
